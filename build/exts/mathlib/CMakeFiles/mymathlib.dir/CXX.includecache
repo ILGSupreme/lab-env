@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sampad-3/Labbar/FysikLabbar/lab-env/exts/mathlib/SamMathsMatrices.cpp
+SamMathsMatrices.h
+/home/sampad-3/Labbar/FysikLabbar/lab-env/exts/mathlib/SamMathsMatrices.h
+stdexcept
+-
+
+/home/sampad-3/Labbar/FysikLabbar/lab-env/exts/mathlib/SamMathsMatrices.h
+assert.h
+-
+iostream
+-
+math.h
+-
+iostream
+-
+SamMathsVectors.h
+/home/sampad-3/Labbar/FysikLabbar/lab-env/exts/mathlib/SamMathsVectors.h
+
+/home/sampad-3/Labbar/FysikLabbar/lab-env/exts/mathlib/SamMathsVectors.cpp
+SamMathsVectors.h
+/home/sampad-3/Labbar/FysikLabbar/lab-env/exts/mathlib/SamMathsVectors.h
+
+/home/sampad-3/Labbar/FysikLabbar/lab-env/exts/mathlib/SamMathsVectors.h
+assert.h
+-
+math.h
+-
+iostream
+-
+

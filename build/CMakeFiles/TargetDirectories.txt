@@ -1,0 +1,8 @@
+/home/sampad-3/Labbar/FysikLabbar/lab-env/build/projects/labb1/CMakeFiles/labb1.dir
+/home/sampad-3/Labbar/FysikLabbar/lab-env/build/exts/mathlib/CMakeFiles/mymathlib.dir
+/home/sampad-3/Labbar/FysikLabbar/lab-env/build/engine/render/CMakeFiles/render.dir
+/home/sampad-3/Labbar/FysikLabbar/lab-env/build/projects/example/CMakeFiles/example.dir
+/home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine/CMakeFiles/adonengine.dir
+/home/sampad-3/Labbar/FysikLabbar/lab-env/build/exts/glew/CMakeFiles/glew.dir
+/home/sampad-3/Labbar/FysikLabbar/lab-env/build/exts/glfw-3.1.1/src/CMakeFiles/glfw.dir
+/home/sampad-3/Labbar/FysikLabbar/lab-env/build/engine/core/CMakeFiles/core.dir

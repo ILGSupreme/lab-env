@@ -1,0 +1,2 @@
+/usr/bin/ar cq libmymathlib.a  CMakeFiles/mymathlib.dir/SamMathsMatrices.cpp.o CMakeFiles/mymathlib.dir/SamMathsVectors.cpp.o
+/usr/bin/ranlib libmymathlib.a
