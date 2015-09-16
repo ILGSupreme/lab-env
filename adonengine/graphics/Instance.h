@@ -3,9 +3,9 @@
 #include <map>
 #include "SamMathsMatrices.h"
 #include <vector>
+#include "DataStructures.h"
 #include "Bounds.h"
 using namespace std;
-using namespace AdonPhysics;
 
 
 enum TEXTURE_INFO
@@ -58,7 +58,7 @@ public:
 	*	@param rd
 	*	@param pos
 	*/
-	Instance(unsigned int vao, unsigned int program, int tricount,map<string,int> uniforms,RenderInformation rd,Bounds* bsphere);
+	Instance(unsigned int vao, unsigned int program, int tricount,map<string,int> uniforms,RenderInformation rd,AdonEngine::Physics::Bounds* bsphere);
 	/**
 	*	Instance
 	*	@param vao
@@ -109,18 +109,21 @@ public:
 
 	int MaterialCount();
 
-	Bounds* GetBounds();
-
+	AdonEngine::Physics::Bounds* GetBounds();
+	
+	bool isInitilized();
+	
 	//TEST CODE
 	unsigned int uniformbuffer;
-	Bounds* bounds;
 private:
+	AdonEngine::Physics::Bounds* bounds;
 	unsigned int VAO;
 	unsigned int program;
 	int triangles; //ändra namn!
 	map<string, int> uniforms;
 	RenderInformation rd;
 	vector<Material> materials;
+	BYTE init = 0;
 	//change!!!
 };
 

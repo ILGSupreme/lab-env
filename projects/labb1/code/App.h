@@ -7,7 +7,7 @@
 //------------------------------------------------------------------------------
 #include "core/app.h"
 #include "render/window.h"
-#include "../../adonengine/AdonEngine.h"
+#include "AdonEngine.h"
 #include "Ray.h"
 
 namespace GraphicsLabb
@@ -26,17 +26,20 @@ public:
 	void Run();
 private:
 	Display::Window* window;
-	AdonEngine eng;
+	Adon eng;
 	double deltatime = 0;
 	double time = 0;
 	float horizontalAngle = 3.14f;
 	float verticalAngle = 0;
 	Vector3f position = Vector3f(0,0,-10);
-	Vector3f direction = Vector3f(1,0,0);
+	Vector3f direction = Vector3f(0,0,0);
 	Vector3f up = Vector3f(0,1,0);
 	Vector3f right = Vector3f(-1,0,0);
 	Vector3f left = Vector3f(1,0,0);
-	AdonPhysics::Ray raytest;
+	AdonEngine::Physics::Ray ray_1;
+	AdonEngine::Physics::Ray ray_2;
+	Object3D* target;
+	Object3D* newtarget;
 	
 	float xmouse;
  	float ymouse;

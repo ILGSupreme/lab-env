@@ -164,9 +164,32 @@ adonengine/CMakeFiles/adonengine.dir/graphics/ShaderProgram.cc.o.provides: adone
 
 adonengine/CMakeFiles/adonengine.dir/graphics/ShaderProgram.cc.o.provides.build: adonengine/CMakeFiles/adonengine.dir/graphics/ShaderProgram.cc.o
 
+adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o: adonengine/CMakeFiles/adonengine.dir/flags.make
+adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o: ../adonengine/graphics/Renderer.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/adonengine.dir/graphics/Renderer.cc.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/graphics/Renderer.cc
+
+adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adonengine.dir/graphics/Renderer.cc.i"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/graphics/Renderer.cc > CMakeFiles/adonengine.dir/graphics/Renderer.cc.i
+
+adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adonengine.dir/graphics/Renderer.cc.s"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/graphics/Renderer.cc -o CMakeFiles/adonengine.dir/graphics/Renderer.cc.s
+
+adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o.requires:
+.PHONY : adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o.requires
+
+adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o.provides: adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o.requires
+	$(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o.provides.build
+.PHONY : adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o.provides
+
+adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o.provides.build: adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o
+
 adonengine/CMakeFiles/adonengine.dir/graphics/Instance.cc.o: adonengine/CMakeFiles/adonengine.dir/flags.make
 adonengine/CMakeFiles/adonengine.dir/graphics/Instance.cc.o: ../adonengine/graphics/Instance.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object adonengine/CMakeFiles/adonengine.dir/graphics/Instance.cc.o"
 	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/adonengine.dir/graphics/Instance.cc.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/graphics/Instance.cc
 
@@ -189,7 +212,7 @@ adonengine/CMakeFiles/adonengine.dir/graphics/Instance.cc.o.provides.build: adon
 
 adonengine/CMakeFiles/adonengine.dir/camera/Camera.cc.o: adonengine/CMakeFiles/adonengine.dir/flags.make
 adonengine/CMakeFiles/adonengine.dir/camera/Camera.cc.o: ../adonengine/camera/Camera.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object adonengine/CMakeFiles/adonengine.dir/camera/Camera.cc.o"
 	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/adonengine.dir/camera/Camera.cc.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/camera/Camera.cc
 
@@ -212,7 +235,7 @@ adonengine/CMakeFiles/adonengine.dir/camera/Camera.cc.o.provides.build: adonengi
 
 adonengine/CMakeFiles/adonengine.dir/camera/CameraContainer.cc.o: adonengine/CMakeFiles/adonengine.dir/flags.make
 adonengine/CMakeFiles/adonengine.dir/camera/CameraContainer.cc.o: ../adonengine/camera/CameraContainer.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object adonengine/CMakeFiles/adonengine.dir/camera/CameraContainer.cc.o"
 	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/adonengine.dir/camera/CameraContainer.cc.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/camera/CameraContainer.cc
 
@@ -235,7 +258,7 @@ adonengine/CMakeFiles/adonengine.dir/camera/CameraContainer.cc.o.provides.build:
 
 adonengine/CMakeFiles/adonengine.dir/object/Object3D.cc.o: adonengine/CMakeFiles/adonengine.dir/flags.make
 adonengine/CMakeFiles/adonengine.dir/object/Object3D.cc.o: ../adonengine/object/Object3D.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object adonengine/CMakeFiles/adonengine.dir/object/Object3D.cc.o"
 	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/adonengine.dir/object/Object3D.cc.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/object/Object3D.cc
 
@@ -258,7 +281,7 @@ adonengine/CMakeFiles/adonengine.dir/object/Object3D.cc.o.provides.build: adonen
 
 adonengine/CMakeFiles/adonengine.dir/object/LightObject.cc.o: adonengine/CMakeFiles/adonengine.dir/flags.make
 adonengine/CMakeFiles/adonengine.dir/object/LightObject.cc.o: ../adonengine/object/LightObject.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object adonengine/CMakeFiles/adonengine.dir/object/LightObject.cc.o"
 	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/adonengine.dir/object/LightObject.cc.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/object/LightObject.cc
 
@@ -279,32 +302,124 @@ adonengine/CMakeFiles/adonengine.dir/object/LightObject.cc.o.provides: adonengin
 
 adonengine/CMakeFiles/adonengine.dir/object/LightObject.cc.o.provides.build: adonengine/CMakeFiles/adonengine.dir/object/LightObject.cc.o
 
-adonengine/CMakeFiles/adonengine.dir/physics/Physics.cc.o: adonengine/CMakeFiles/adonengine.dir/flags.make
-adonengine/CMakeFiles/adonengine.dir/physics/Physics.cc.o: ../adonengine/physics/Physics.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles $(CMAKE_PROGRESS_11)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object adonengine/CMakeFiles/adonengine.dir/physics/Physics.cc.o"
-	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/adonengine.dir/physics/Physics.cc.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/Physics.cc
+adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o: adonengine/CMakeFiles/adonengine.dir/flags.make
+adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o: ../adonengine/object/ObjectManager.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/adonengine.dir/object/ObjectManager.cc.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/object/ObjectManager.cc
 
-adonengine/CMakeFiles/adonengine.dir/physics/Physics.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adonengine.dir/physics/Physics.cc.i"
-	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/Physics.cc > CMakeFiles/adonengine.dir/physics/Physics.cc.i
+adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adonengine.dir/object/ObjectManager.cc.i"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/object/ObjectManager.cc > CMakeFiles/adonengine.dir/object/ObjectManager.cc.i
 
-adonengine/CMakeFiles/adonengine.dir/physics/Physics.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adonengine.dir/physics/Physics.cc.s"
-	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/Physics.cc -o CMakeFiles/adonengine.dir/physics/Physics.cc.s
+adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adonengine.dir/object/ObjectManager.cc.s"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/object/ObjectManager.cc -o CMakeFiles/adonengine.dir/object/ObjectManager.cc.s
 
-adonengine/CMakeFiles/adonengine.dir/physics/Physics.cc.o.requires:
-.PHONY : adonengine/CMakeFiles/adonengine.dir/physics/Physics.cc.o.requires
+adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o.requires:
+.PHONY : adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o.requires
 
-adonengine/CMakeFiles/adonengine.dir/physics/Physics.cc.o.provides: adonengine/CMakeFiles/adonengine.dir/physics/Physics.cc.o.requires
-	$(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/physics/Physics.cc.o.provides.build
-.PHONY : adonengine/CMakeFiles/adonengine.dir/physics/Physics.cc.o.provides
+adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o.provides: adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o.requires
+	$(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o.provides.build
+.PHONY : adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o.provides
 
-adonengine/CMakeFiles/adonengine.dir/physics/Physics.cc.o.provides.build: adonengine/CMakeFiles/adonengine.dir/physics/Physics.cc.o
+adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o.provides.build: adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o
+
+adonengine/CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.o: adonengine/CMakeFiles/adonengine.dir/flags.make
+adonengine/CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.o: ../adonengine/physics/IntersectionTest.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object adonengine/CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.o"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/IntersectionTest.cc
+
+adonengine/CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.i"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/IntersectionTest.cc > CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.i
+
+adonengine/CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.s"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/IntersectionTest.cc -o CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.s
+
+adonengine/CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.o.requires:
+.PHONY : adonengine/CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.o.requires
+
+adonengine/CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.o.provides: adonengine/CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.o.requires
+	$(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.o.provides.build
+.PHONY : adonengine/CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.o.provides
+
+adonengine/CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.o.provides.build: adonengine/CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.o
+
+adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o: adonengine/CMakeFiles/adonengine.dir/flags.make
+adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o: ../adonengine/physics/PhysicsManager.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/PhysicsManager.cc
+
+adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.i"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/PhysicsManager.cc > CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.i
+
+adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.s"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/PhysicsManager.cc -o CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.s
+
+adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o.requires:
+.PHONY : adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o.requires
+
+adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o.provides: adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o.requires
+	$(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o.provides.build
+.PHONY : adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o.provides
+
+adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o.provides.build: adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o
+
+adonengine/CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.o: adonengine/CMakeFiles/adonengine.dir/flags.make
+adonengine/CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.o: ../adonengine/physics/PhysicsUtil.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object adonengine/CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.o"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/PhysicsUtil.cc
+
+adonengine/CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.i"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/PhysicsUtil.cc > CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.i
+
+adonengine/CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.s"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/PhysicsUtil.cc -o CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.s
+
+adonengine/CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.o.requires:
+.PHONY : adonengine/CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.o.requires
+
+adonengine/CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.o.provides: adonengine/CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.o.requires
+	$(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.o.provides.build
+.PHONY : adonengine/CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.o.provides
+
+adonengine/CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.o.provides.build: adonengine/CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.o
+
+adonengine/CMakeFiles/adonengine.dir/physics/Bounds.cc.o: adonengine/CMakeFiles/adonengine.dir/flags.make
+adonengine/CMakeFiles/adonengine.dir/physics/Bounds.cc.o: ../adonengine/physics/Bounds.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object adonengine/CMakeFiles/adonengine.dir/physics/Bounds.cc.o"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/adonengine.dir/physics/Bounds.cc.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/Bounds.cc
+
+adonengine/CMakeFiles/adonengine.dir/physics/Bounds.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adonengine.dir/physics/Bounds.cc.i"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/Bounds.cc > CMakeFiles/adonengine.dir/physics/Bounds.cc.i
+
+adonengine/CMakeFiles/adonengine.dir/physics/Bounds.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adonengine.dir/physics/Bounds.cc.s"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/Bounds.cc -o CMakeFiles/adonengine.dir/physics/Bounds.cc.s
+
+adonengine/CMakeFiles/adonengine.dir/physics/Bounds.cc.o.requires:
+.PHONY : adonengine/CMakeFiles/adonengine.dir/physics/Bounds.cc.o.requires
+
+adonengine/CMakeFiles/adonengine.dir/physics/Bounds.cc.o.provides: adonengine/CMakeFiles/adonengine.dir/physics/Bounds.cc.o.requires
+	$(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/physics/Bounds.cc.o.provides.build
+.PHONY : adonengine/CMakeFiles/adonengine.dir/physics/Bounds.cc.o.provides
+
+adonengine/CMakeFiles/adonengine.dir/physics/Bounds.cc.o.provides.build: adonengine/CMakeFiles/adonengine.dir/physics/Bounds.cc.o
 
 adonengine/CMakeFiles/adonengine.dir/AdonEngine.cc.o: adonengine/CMakeFiles/adonengine.dir/flags.make
 adonengine/CMakeFiles/adonengine.dir/AdonEngine.cc.o: ../adonengine/AdonEngine.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object adonengine/CMakeFiles/adonengine.dir/AdonEngine.cc.o"
 	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/adonengine.dir/AdonEngine.cc.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/AdonEngine.cc
 
@@ -325,6 +440,52 @@ adonengine/CMakeFiles/adonengine.dir/AdonEngine.cc.o.provides: adonengine/CMakeF
 
 adonengine/CMakeFiles/adonengine.dir/AdonEngine.cc.o.provides.build: adonengine/CMakeFiles/adonengine.dir/AdonEngine.cc.o
 
+adonengine/CMakeFiles/adonengine.dir/time/interval.cc.o: adonengine/CMakeFiles/adonengine.dir/flags.make
+adonengine/CMakeFiles/adonengine.dir/time/interval.cc.o: ../adonengine/time/interval.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object adonengine/CMakeFiles/adonengine.dir/time/interval.cc.o"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/adonengine.dir/time/interval.cc.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/time/interval.cc
+
+adonengine/CMakeFiles/adonengine.dir/time/interval.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adonengine.dir/time/interval.cc.i"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/time/interval.cc > CMakeFiles/adonengine.dir/time/interval.cc.i
+
+adonengine/CMakeFiles/adonengine.dir/time/interval.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adonengine.dir/time/interval.cc.s"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/time/interval.cc -o CMakeFiles/adonengine.dir/time/interval.cc.s
+
+adonengine/CMakeFiles/adonengine.dir/time/interval.cc.o.requires:
+.PHONY : adonengine/CMakeFiles/adonengine.dir/time/interval.cc.o.requires
+
+adonengine/CMakeFiles/adonengine.dir/time/interval.cc.o.provides: adonengine/CMakeFiles/adonengine.dir/time/interval.cc.o.requires
+	$(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/time/interval.cc.o.provides.build
+.PHONY : adonengine/CMakeFiles/adonengine.dir/time/interval.cc.o.provides
+
+adonengine/CMakeFiles/adonengine.dir/time/interval.cc.o.provides.build: adonengine/CMakeFiles/adonengine.dir/time/interval.cc.o
+
+adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o: adonengine/CMakeFiles/adonengine.dir/flags.make
+adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o: ../adonengine/base/Factory.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/adonengine.dir/base/Factory.cc.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/base/Factory.cc
+
+adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adonengine.dir/base/Factory.cc.i"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/base/Factory.cc > CMakeFiles/adonengine.dir/base/Factory.cc.i
+
+adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adonengine.dir/base/Factory.cc.s"
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build/adonengine && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/base/Factory.cc -o CMakeFiles/adonengine.dir/base/Factory.cc.s
+
+adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o.requires:
+.PHONY : adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o.requires
+
+adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o.provides: adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o.requires
+	$(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o.provides.build
+.PHONY : adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o.provides
+
+adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o.provides.build: adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o
+
 # Object files for target adonengine
 adonengine_OBJECTS = \
 "CMakeFiles/adonengine.dir/graphics/Mesh.cc.o" \
@@ -332,13 +493,20 @@ adonengine_OBJECTS = \
 "CMakeFiles/adonengine.dir/graphics/GraphicsManager.cc.o" \
 "CMakeFiles/adonengine.dir/graphics/SourceData.cc.o" \
 "CMakeFiles/adonengine.dir/graphics/ShaderProgram.cc.o" \
+"CMakeFiles/adonengine.dir/graphics/Renderer.cc.o" \
 "CMakeFiles/adonengine.dir/graphics/Instance.cc.o" \
 "CMakeFiles/adonengine.dir/camera/Camera.cc.o" \
 "CMakeFiles/adonengine.dir/camera/CameraContainer.cc.o" \
 "CMakeFiles/adonengine.dir/object/Object3D.cc.o" \
 "CMakeFiles/adonengine.dir/object/LightObject.cc.o" \
-"CMakeFiles/adonengine.dir/physics/Physics.cc.o" \
-"CMakeFiles/adonengine.dir/AdonEngine.cc.o"
+"CMakeFiles/adonengine.dir/object/ObjectManager.cc.o" \
+"CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.o" \
+"CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o" \
+"CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.o" \
+"CMakeFiles/adonengine.dir/physics/Bounds.cc.o" \
+"CMakeFiles/adonengine.dir/AdonEngine.cc.o" \
+"CMakeFiles/adonengine.dir/time/interval.cc.o" \
+"CMakeFiles/adonengine.dir/base/Factory.cc.o"
 
 # External object files for target adonengine
 adonengine_EXTERNAL_OBJECTS =
@@ -348,13 +516,20 @@ adonengine/libadonengine.a: adonengine/CMakeFiles/adonengine.dir/graphics/Shader
 adonengine/libadonengine.a: adonengine/CMakeFiles/adonengine.dir/graphics/GraphicsManager.cc.o
 adonengine/libadonengine.a: adonengine/CMakeFiles/adonengine.dir/graphics/SourceData.cc.o
 adonengine/libadonengine.a: adonengine/CMakeFiles/adonengine.dir/graphics/ShaderProgram.cc.o
+adonengine/libadonengine.a: adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o
 adonengine/libadonengine.a: adonengine/CMakeFiles/adonengine.dir/graphics/Instance.cc.o
 adonengine/libadonengine.a: adonengine/CMakeFiles/adonengine.dir/camera/Camera.cc.o
 adonengine/libadonengine.a: adonengine/CMakeFiles/adonengine.dir/camera/CameraContainer.cc.o
 adonengine/libadonengine.a: adonengine/CMakeFiles/adonengine.dir/object/Object3D.cc.o
 adonengine/libadonengine.a: adonengine/CMakeFiles/adonengine.dir/object/LightObject.cc.o
-adonengine/libadonengine.a: adonengine/CMakeFiles/adonengine.dir/physics/Physics.cc.o
+adonengine/libadonengine.a: adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o
+adonengine/libadonengine.a: adonengine/CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.o
+adonengine/libadonengine.a: adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o
+adonengine/libadonengine.a: adonengine/CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.o
+adonengine/libadonengine.a: adonengine/CMakeFiles/adonengine.dir/physics/Bounds.cc.o
 adonengine/libadonengine.a: adonengine/CMakeFiles/adonengine.dir/AdonEngine.cc.o
+adonengine/libadonengine.a: adonengine/CMakeFiles/adonengine.dir/time/interval.cc.o
+adonengine/libadonengine.a: adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o
 adonengine/libadonengine.a: adonengine/CMakeFiles/adonengine.dir/build.make
 adonengine/libadonengine.a: adonengine/CMakeFiles/adonengine.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libadonengine.a"
@@ -370,13 +545,20 @@ adonengine/CMakeFiles/adonengine.dir/requires: adonengine/CMakeFiles/adonengine.
 adonengine/CMakeFiles/adonengine.dir/requires: adonengine/CMakeFiles/adonengine.dir/graphics/GraphicsManager.cc.o.requires
 adonengine/CMakeFiles/adonengine.dir/requires: adonengine/CMakeFiles/adonengine.dir/graphics/SourceData.cc.o.requires
 adonengine/CMakeFiles/adonengine.dir/requires: adonengine/CMakeFiles/adonengine.dir/graphics/ShaderProgram.cc.o.requires
+adonengine/CMakeFiles/adonengine.dir/requires: adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o.requires
 adonengine/CMakeFiles/adonengine.dir/requires: adonengine/CMakeFiles/adonengine.dir/graphics/Instance.cc.o.requires
 adonengine/CMakeFiles/adonengine.dir/requires: adonengine/CMakeFiles/adonengine.dir/camera/Camera.cc.o.requires
 adonengine/CMakeFiles/adonengine.dir/requires: adonengine/CMakeFiles/adonengine.dir/camera/CameraContainer.cc.o.requires
 adonengine/CMakeFiles/adonengine.dir/requires: adonengine/CMakeFiles/adonengine.dir/object/Object3D.cc.o.requires
 adonengine/CMakeFiles/adonengine.dir/requires: adonengine/CMakeFiles/adonengine.dir/object/LightObject.cc.o.requires
-adonengine/CMakeFiles/adonengine.dir/requires: adonengine/CMakeFiles/adonengine.dir/physics/Physics.cc.o.requires
+adonengine/CMakeFiles/adonengine.dir/requires: adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o.requires
+adonengine/CMakeFiles/adonengine.dir/requires: adonengine/CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.o.requires
+adonengine/CMakeFiles/adonengine.dir/requires: adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o.requires
+adonengine/CMakeFiles/adonengine.dir/requires: adonengine/CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.o.requires
+adonengine/CMakeFiles/adonengine.dir/requires: adonengine/CMakeFiles/adonengine.dir/physics/Bounds.cc.o.requires
 adonengine/CMakeFiles/adonengine.dir/requires: adonengine/CMakeFiles/adonengine.dir/AdonEngine.cc.o.requires
+adonengine/CMakeFiles/adonengine.dir/requires: adonengine/CMakeFiles/adonengine.dir/time/interval.cc.o.requires
+adonengine/CMakeFiles/adonengine.dir/requires: adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o.requires
 .PHONY : adonengine/CMakeFiles/adonengine.dir/requires
 
 adonengine/CMakeFiles/adonengine.dir/clean:

@@ -6,6 +6,7 @@
 #include <string>
 #include <limits.h>
 #include <map>
+#include "Bounds.h"
 
 using namespace std;
 
@@ -232,14 +233,15 @@ void GraphicsManager::CreateInstance(string meshname, string shaderprogram, stri
 	//glBufferData(GL_UNIFORM_BUFFER, 3 * sizeof(Matrix4F), NULL, GL_DYNAMIC_DRAW);
 
 	//fixa!
+	
+	AdonEngine::Physics::BoundingBox* tes;
 
 	if (rd.drawinfo == DRAWELEMENTS)
 	{
 		Instance args = Instance(vao, 
 		this->ShaderProgramlist.find(shaderprogram)->second, 
 		this->meshlist[meshname]["in_index"]->GetCount(),
-		this->ShaderProgramlist.find(shaderprogram)->second.GetUniforms(),
-		rd,new BoundingBox(this->meshlist[meshname]["in_position"]->GetData()._datavect3));
+		this->ShaderProgramlist.find(shaderprogram)->second.GetUniforms(),rd,new AdonEngine::Physics::BoundingBox(this->meshlist[meshname]["in_position"]->GetData()._datavect3));
 
 		this->AddInstance(args, InstanceName);
 	}
@@ -249,7 +251,7 @@ void GraphicsManager::CreateInstance(string meshname, string shaderprogram, stri
 		this->ShaderProgramlist.find(shaderprogram)->second,
 		this->meshlist[meshname]["in_position"]->GetCount(),
 		this->ShaderProgramlist.find(shaderprogram)->second.GetUniforms(),
-		rd,new BoundingBox(this->meshlist[meshname]["in_position"]->GetData()._datavect3));
+		rd,new AdonEngine::Physics::BoundingBox(this->meshlist[meshname]["in_position"]->GetData()._datavect3));
 
 		this->AddInstance(args, InstanceName);
 	}

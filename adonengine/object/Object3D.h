@@ -75,17 +75,19 @@ public:
 	*	GetTextureID
 	*/
 	int GetTextureID();
-
+	void Initilize(int instance_id);
 	void AddMaterial(string name , Vector3f);
 	Material& GetMaterial(string name);
 	Instance& GetInstance();
-
+	int init = 0;
 private:
+	int instance_id;
 	Instance graphicdata;
 	Matrix4F transform;
 	Matrix4F globaltransform;
 	vector<Object3D*> children;
 	int textureid;
+	//temp code
 };
 
 

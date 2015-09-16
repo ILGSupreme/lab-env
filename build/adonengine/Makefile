@@ -139,6 +139,30 @@ AdonEngine.cc.s:
 	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/AdonEngine.cc.s
 .PHONY : AdonEngine.cc.s
 
+base/Factory.o: base/Factory.cc.o
+.PHONY : base/Factory.o
+
+# target to build an object file
+base/Factory.cc.o:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o
+.PHONY : base/Factory.cc.o
+
+base/Factory.i: base/Factory.cc.i
+.PHONY : base/Factory.i
+
+# target to preprocess a source file
+base/Factory.cc.i:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.i
+.PHONY : base/Factory.cc.i
+
+base/Factory.s: base/Factory.cc.s
+.PHONY : base/Factory.s
+
+# target to generate assembly for a file
+base/Factory.cc.s:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.s
+.PHONY : base/Factory.cc.s
+
 camera/Camera.o: camera/Camera.cc.o
 .PHONY : camera/Camera.o
 
@@ -258,6 +282,30 @@ graphics/Mesh.s: graphics/Mesh.cc.s
 graphics/Mesh.cc.s:
 	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/graphics/Mesh.cc.s
 .PHONY : graphics/Mesh.cc.s
+
+graphics/Renderer.o: graphics/Renderer.cc.o
+.PHONY : graphics/Renderer.o
+
+# target to build an object file
+graphics/Renderer.cc.o:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o
+.PHONY : graphics/Renderer.cc.o
+
+graphics/Renderer.i: graphics/Renderer.cc.i
+.PHONY : graphics/Renderer.i
+
+# target to preprocess a source file
+graphics/Renderer.cc.i:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.i
+.PHONY : graphics/Renderer.cc.i
+
+graphics/Renderer.s: graphics/Renderer.cc.s
+.PHONY : graphics/Renderer.s
+
+# target to generate assembly for a file
+graphics/Renderer.cc.s:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.s
+.PHONY : graphics/Renderer.cc.s
 
 graphics/Shader.o: graphics/Shader.cc.o
 .PHONY : graphics/Shader.o
@@ -379,29 +427,149 @@ object/Object3D.cc.s:
 	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/object/Object3D.cc.s
 .PHONY : object/Object3D.cc.s
 
-physics/Physics.o: physics/Physics.cc.o
-.PHONY : physics/Physics.o
+object/ObjectManager.o: object/ObjectManager.cc.o
+.PHONY : object/ObjectManager.o
 
 # target to build an object file
-physics/Physics.cc.o:
-	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/physics/Physics.cc.o
-.PHONY : physics/Physics.cc.o
+object/ObjectManager.cc.o:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o
+.PHONY : object/ObjectManager.cc.o
 
-physics/Physics.i: physics/Physics.cc.i
-.PHONY : physics/Physics.i
+object/ObjectManager.i: object/ObjectManager.cc.i
+.PHONY : object/ObjectManager.i
 
 # target to preprocess a source file
-physics/Physics.cc.i:
-	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/physics/Physics.cc.i
-.PHONY : physics/Physics.cc.i
+object/ObjectManager.cc.i:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.i
+.PHONY : object/ObjectManager.cc.i
 
-physics/Physics.s: physics/Physics.cc.s
-.PHONY : physics/Physics.s
+object/ObjectManager.s: object/ObjectManager.cc.s
+.PHONY : object/ObjectManager.s
 
 # target to generate assembly for a file
-physics/Physics.cc.s:
-	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/physics/Physics.cc.s
-.PHONY : physics/Physics.cc.s
+object/ObjectManager.cc.s:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.s
+.PHONY : object/ObjectManager.cc.s
+
+physics/Bounds.o: physics/Bounds.cc.o
+.PHONY : physics/Bounds.o
+
+# target to build an object file
+physics/Bounds.cc.o:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/physics/Bounds.cc.o
+.PHONY : physics/Bounds.cc.o
+
+physics/Bounds.i: physics/Bounds.cc.i
+.PHONY : physics/Bounds.i
+
+# target to preprocess a source file
+physics/Bounds.cc.i:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/physics/Bounds.cc.i
+.PHONY : physics/Bounds.cc.i
+
+physics/Bounds.s: physics/Bounds.cc.s
+.PHONY : physics/Bounds.s
+
+# target to generate assembly for a file
+physics/Bounds.cc.s:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/physics/Bounds.cc.s
+.PHONY : physics/Bounds.cc.s
+
+physics/IntersectionTest.o: physics/IntersectionTest.cc.o
+.PHONY : physics/IntersectionTest.o
+
+# target to build an object file
+physics/IntersectionTest.cc.o:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.o
+.PHONY : physics/IntersectionTest.cc.o
+
+physics/IntersectionTest.i: physics/IntersectionTest.cc.i
+.PHONY : physics/IntersectionTest.i
+
+# target to preprocess a source file
+physics/IntersectionTest.cc.i:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.i
+.PHONY : physics/IntersectionTest.cc.i
+
+physics/IntersectionTest.s: physics/IntersectionTest.cc.s
+.PHONY : physics/IntersectionTest.s
+
+# target to generate assembly for a file
+physics/IntersectionTest.cc.s:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.s
+.PHONY : physics/IntersectionTest.cc.s
+
+physics/PhysicsManager.o: physics/PhysicsManager.cc.o
+.PHONY : physics/PhysicsManager.o
+
+# target to build an object file
+physics/PhysicsManager.cc.o:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o
+.PHONY : physics/PhysicsManager.cc.o
+
+physics/PhysicsManager.i: physics/PhysicsManager.cc.i
+.PHONY : physics/PhysicsManager.i
+
+# target to preprocess a source file
+physics/PhysicsManager.cc.i:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.i
+.PHONY : physics/PhysicsManager.cc.i
+
+physics/PhysicsManager.s: physics/PhysicsManager.cc.s
+.PHONY : physics/PhysicsManager.s
+
+# target to generate assembly for a file
+physics/PhysicsManager.cc.s:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.s
+.PHONY : physics/PhysicsManager.cc.s
+
+physics/PhysicsUtil.o: physics/PhysicsUtil.cc.o
+.PHONY : physics/PhysicsUtil.o
+
+# target to build an object file
+physics/PhysicsUtil.cc.o:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.o
+.PHONY : physics/PhysicsUtil.cc.o
+
+physics/PhysicsUtil.i: physics/PhysicsUtil.cc.i
+.PHONY : physics/PhysicsUtil.i
+
+# target to preprocess a source file
+physics/PhysicsUtil.cc.i:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.i
+.PHONY : physics/PhysicsUtil.cc.i
+
+physics/PhysicsUtil.s: physics/PhysicsUtil.cc.s
+.PHONY : physics/PhysicsUtil.s
+
+# target to generate assembly for a file
+physics/PhysicsUtil.cc.s:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.s
+.PHONY : physics/PhysicsUtil.cc.s
+
+time/interval.o: time/interval.cc.o
+.PHONY : time/interval.o
+
+# target to build an object file
+time/interval.cc.o:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/time/interval.cc.o
+.PHONY : time/interval.cc.o
+
+time/interval.i: time/interval.cc.i
+.PHONY : time/interval.i
+
+# target to preprocess a source file
+time/interval.cc.i:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/time/interval.cc.i
+.PHONY : time/interval.cc.i
+
+time/interval.s: time/interval.cc.s
+.PHONY : time/interval.s
+
+# target to generate assembly for a file
+time/interval.cc.s:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/time/interval.cc.s
+.PHONY : time/interval.cc.s
 
 # Help Target
 help:
@@ -415,6 +583,9 @@ help:
 	@echo "... AdonEngine.o"
 	@echo "... AdonEngine.i"
 	@echo "... AdonEngine.s"
+	@echo "... base/Factory.o"
+	@echo "... base/Factory.i"
+	@echo "... base/Factory.s"
 	@echo "... camera/Camera.o"
 	@echo "... camera/Camera.i"
 	@echo "... camera/Camera.s"
@@ -430,6 +601,9 @@ help:
 	@echo "... graphics/Mesh.o"
 	@echo "... graphics/Mesh.i"
 	@echo "... graphics/Mesh.s"
+	@echo "... graphics/Renderer.o"
+	@echo "... graphics/Renderer.i"
+	@echo "... graphics/Renderer.s"
 	@echo "... graphics/Shader.o"
 	@echo "... graphics/Shader.i"
 	@echo "... graphics/Shader.s"
@@ -445,9 +619,24 @@ help:
 	@echo "... object/Object3D.o"
 	@echo "... object/Object3D.i"
 	@echo "... object/Object3D.s"
-	@echo "... physics/Physics.o"
-	@echo "... physics/Physics.i"
-	@echo "... physics/Physics.s"
+	@echo "... object/ObjectManager.o"
+	@echo "... object/ObjectManager.i"
+	@echo "... object/ObjectManager.s"
+	@echo "... physics/Bounds.o"
+	@echo "... physics/Bounds.i"
+	@echo "... physics/Bounds.s"
+	@echo "... physics/IntersectionTest.o"
+	@echo "... physics/IntersectionTest.i"
+	@echo "... physics/IntersectionTest.s"
+	@echo "... physics/PhysicsManager.o"
+	@echo "... physics/PhysicsManager.i"
+	@echo "... physics/PhysicsManager.s"
+	@echo "... physics/PhysicsUtil.o"
+	@echo "... physics/PhysicsUtil.i"
+	@echo "... physics/PhysicsUtil.s"
+	@echo "... time/interval.o"
+	@echo "... time/interval.i"
+	@echo "... time/interval.s"
 .PHONY : help
 
 

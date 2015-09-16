@@ -6,7 +6,7 @@ Instance::Instance()
 
 }
 
-Instance::Instance(unsigned int vao, unsigned int program, int tricount, map<string, int> uniforms, RenderInformation rd,Bounds* bsphere)
+Instance::Instance(unsigned int vao, unsigned int program, int tricount, map<string, int> uniforms, RenderInformation rd,AdonEngine::Physics::Bounds* bsphere)
 {
 	this->VAO = vao;
 	this->program = program;
@@ -15,6 +15,7 @@ Instance::Instance(unsigned int vao, unsigned int program, int tricount, map<str
 	this->rd = rd;
 	this->rd.CULL_FACE = ENABLE_CULL_FACE;
 	this->bounds = bsphere;
+	init = 1;
 }
 
 Instance::Instance(unsigned int vao, unsigned int program, int tricount, map<string, int> uniforms, RenderInformation rd,int uniformbuffer)
@@ -26,6 +27,7 @@ Instance::Instance(unsigned int vao, unsigned int program, int tricount, map<str
 	this->rd = rd;
 	this->rd.CULL_FACE = ENABLE_CULL_FACE;
 	this->uniformbuffer = uniformbuffer;
+	init = 1;
 }
 
 
@@ -95,7 +97,12 @@ RenderInformation& Instance::GetRenderInfo()
 	return this->rd;
 }
 
-Bounds* Instance::GetBounds()
+AdonEngine::Physics::Bounds* Instance::GetBounds()
 {
 	return this->bounds;
+}
+
+bool Instance::isInitilized()
+{
+  return init == 1;
 }

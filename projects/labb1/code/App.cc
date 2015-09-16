@@ -7,7 +7,12 @@
 #include "AdonEngine.h"
 #include "Projection.h"
 #include "Ray.h"
-#include "Physics.h"
+#include "IntersectionTest.h"
+#include "Bounds.h"
+#include <PhysicsUtil.h>
+#include "Factory.h"
+#include "Renderer.h"
+#include <ObjectManager.h>
 #include <cstring>
 #include <stdio.h>
 
@@ -42,8 +47,10 @@ GraphicsApp::Open()
 	window->SetSize(1920,1200);
 	window->SetKeyPressFunction([this](int32 key, int32 scancode, int32 action, int32 mods)
 	{
-		//printf("%f  %f %f %f",key,scancode,action,mods);
-		
+	  if (key == 256)
+	  {
+	    window->Close();
+	  }
 	});
 	
 	window->SetMouseMoveFunction([this](float64 x ,float64 y)
@@ -64,22 +71,22 @@ GraphicsApp::Open()
  		right = Vector3f(sin(horizontalAngle - 3.14f / 2.0), 0, cos(horizontalAngle - 3.14f / 2.0));
  		left = Vector3f(sin(horizontalAngle + 3.14 / 2.0), 0, cos(horizontalAngle + 3.14 / 2.0));
  		up = right.crossProduct(direction);
-		//glfwSetCursorPos(window->GetWindow(),width / 2, height / 2);
 		
 		Matrix4F cameraView = InitLookAtMat4F(position,position+direction, up);
-		//Matrix4F PV = proj_matrix1 * viewmatrix;
 		Matrix4F PV = proj_matrix1 * cameraView;
 		Viewport view = eng.GetCamera("FirstPerson")->GetViewPort();
 		p1 = Vector3f(xmouse,height-ymouse,0);
 		p3 = Vector3f(xmouse,height-ymouse,1);
 		Vector2f mousecoord(xmouse/view.width,ymouse/view.height);
-		//raytest= Util::CreateRay(mousecoord,proj_matrix1,viewmatrix,0.1f,30);
+		
+		//ray_2= AdonEngine::Physics::PhysicsUtil::CreateRay(mousecoord,proj_matrix1,cameraView,0.1f,30);
+		
 		p2 = Util::Unproject(p1,PV,view);
 		p4 =Util::Unproject(p3,PV,view);
 		
 		p5 = p4-p2;
 		
-		raytest = Ray(p2,p5.getnormalize(),10);
+		ray_1 = AdonEngine::Physics::Ray(p2,p5.getnormalize(),10);
 		
 		std::cout<<"";
 	});
@@ -91,27 +98,33 @@ GraphicsApp::Open()
 	  glfwGetCursorPos(this->window->GetWindow(),&mousexpick,&mouseypick);
 	  
 	  std::cout<<"xpos:"<<mousexpick<<" "<<"ypos:"<<mouseypick<<"\n"<<std::endl;
-	  std::tuple<bool,float> test = AdonPhysics::Physics::getInstance()->RayCast(raytest,eng.GetObject3D(4)->GetInstance().GetBounds());
-	  std::cout<<std::get<0>(test)<<"\n";
- 	  if(get<0>(test))
+	  std::map<int,Object3D>* mapingstuff = eng.getObjects();
+	  newtarget = AdonEngine::Physics::PhysicsUtil::RaycastDummyFunc(ray_1, eng.getObjects());
+	  //std::cout<<std::get<0>(trg)<<"\n";
+ 	  if(newtarget!=nullptr)
  	  {
-	    Vector3f test = eng.GetObject3D(4)->GetMaterial("specular_light").material;
-	    test = Vector3f(1,1,1);
-	    eng.GetObject3D(4)->GetMaterial("specular_light").material = test;
+	    Vector3f newvec(1,1,1);
+	    if(target!=nullptr)
+	    {
+	      Vector3f resetvec(0,0,0);
+	      target->GetMaterial("target_color").material = resetvec;
+	    }
+	    target = newtarget;
+	    target->GetMaterial("target_color").material = newvec;
  	  }
- 	  if(!get<0>(test))
+ 	  else
 	  {
-	    Vector3f test = eng.GetObject3D(4)->GetMaterial("specular_light").material;
-	    test = Vector3f(0,0,0);
-	    eng.GetObject3D(4)->GetMaterial("specular_light").material = test;
+	    Vector3f resetvec(0,0,0);
+	    if(target != nullptr)
+	      target->GetMaterial("target_color").material = resetvec;
 	  }
 	});
 	
 	if (this->window->Open())
 	{
-		//glfwSetInputMode(this->window->GetWindow(),GLFW_CURSOR_DISABLED,GL_TRUE);
-		eng = AdonEngine();
-		AdonPhysics::Physics::getInstance();
+		eng = Adon();
+		this->target = nullptr;
+		this->newtarget = nullptr;
 		eng.CreateShader("VertexSH1", "VertexSphere", VERTEX_SHADER);
 		eng.CreateShader("FragmentSH1", "FragmentSphere", FRAGMENT_SHADER);
 		eng.GetShader("VertexSH1")->Compile();
@@ -144,6 +157,8 @@ GraphicsApp::Open()
 		eng.AddUniformToShaderProgram("ShaderProgram", "diffuse_light");
 
 		eng.AddUniformToShaderProgram("ShaderProgram", "specular_light");
+		
+		eng.AddUniformToShaderProgram("ShaderProgram", "target_color");
 
 		eng.LoadOBJFile("SphereOBJ", "sphere.obj");
 
@@ -179,43 +194,33 @@ GraphicsApp::Open()
 		eng.GetObject3D(4)->AddMaterial("ambient_light", Vector3f(1, 1, 1));
  		eng.GetObject3D(4)->AddMaterial("diffuse_light", Vector3f(1, 1, 1));
 		eng.GetObject3D(4)->AddMaterial("specular_light", Vector3f(0, 0, 0));
+		eng.GetObject3D(4)->AddMaterial("target_color", Vector3f(0, 0, 0));
 
 		eng.GetObject3D(1)->SetTextureID(eng.GetTextureID("Stars"));
-		eng.GetObject3D(1)->GetInstance().GetRenderInfo().CULL_FACE = DISABLE_CULL_FACE;
-		//eng.GetObject3D(2)->SetTextureID(eng.GetTextureID("BORG"));
+		eng.GetObject3D(1)->GetInstance().GetRenderInfo().CULL_FACE = DISABLE_CULL_FACE;;
 		eng.GetObject3D(3)->SetTextureID(eng.GetTextureID("Earth"));
 
  		eng.GetObject3D(1)->AddMaterial("ambient_light", Vector3f(1, 1, 1));
  		eng.GetObject3D(1)->AddMaterial("diffuse_light", Vector3f(1, 1, 1));
 		eng.GetObject3D(1)->AddMaterial("specular_light", Vector3f(0, 0, 0));
+		eng.GetObject3D(1)->AddMaterial("target_color", Vector3f(0, 0, 0));
 
 		eng.GetObject3D(3)->AddMaterial("ambient_light", Vector3f(2.0, 2.0, 2.0));
 		eng.GetObject3D(3)->AddMaterial("diffuse_light", Vector3f(2, 2, 2));
 		eng.GetObject3D(3)->AddMaterial("specular_light", Vector3f(1.0, 1.0, 1.0));
+		eng.GetObject3D(3)->AddMaterial("target_color", Vector3f(0, 0, 0));
 		
 		eng.AddCamera("FirstPerson",USERDEFINED,Viewport(0,0,1920,1200));
 		eng.ActivateCamera("FirstPerson");
-		
-		//eng.GetCamera("FirstPerson")->SetViewMatrix(InitLookAtMat4F(Vector3f(0,5,0),Vector3f(0,0,0),Vector3f(0,1,0)));
-		
-		//eng.AddViewPort("Cam1",100,100,50,50);
-		//eng.AddCamera("LookAtCamera",CLASSDEFINED,Viewport(100,100,200,200));
-		//eng.ActivateCamera("LookAtCamera");
-		
-		//eng.AddViewPort("Cam2",100,100,1000,500);
-		//eng.AddCamera("LookAtCamera2",CLASSDEFINED,Viewport(200,200,300,300));
-		//eng.ActivateCamera("LookAtCamera2");
-		
- 		//eng.AddViewPort("Cam3",500,500,500,500);
- 		//eng.AddCamera("LookAtCamera3",CLASSDEFINED,Viewport(300,300,400,400));
-		//eng.ActivateCamera("LookAtCamera3");
 		
 		glEnable(GL_DEPTH_TEST);
 		glDepthFunc(GL_LEQUAL);
 		glEnable(GL_BLEND);
 		glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 		
-		eng.GetObject3D(1)->SetLocalMatrix(InitScalingMat4F(Vector3f(10000, 10000, 10000)));
+		eng.GetObject3D(1)->SetLocalMatrix(InitTranslationMat4F(Vector3f(10, 1, 1)));
+		eng.GetObject3D(4)->SetLocalMatrix(InitTranslationMat4F(Vector3f(0,0,0)));
+		eng.GetObject3D(3)->SetLocalMatrix(InitTranslationMat4F(Vector3f(1,0,2)));
 		
 		return true;
 	}
@@ -234,7 +239,8 @@ GraphicsApp::Run()
 	proj_matrix1 = Mat4::InitPerspectiveMat4F(50.0f, aspect, 0.1f, 1000000.0f);
 	eng.GetCamera("FirstPerson")->SetPerspective(proj_matrix1);
 	while (this->window->IsOpen())
-	{
+	{	
+		this->window->Update();
 		glClear(GL_COLOR_BUFFER_BIT);
 		time = glfwGetTime();
 		
@@ -267,20 +273,10 @@ GraphicsApp::Run()
  		{
 			position = position + right *(deltatime * speed);
 		}
-		
-		this->window->Update();
 
 		Matrix4F cameraView = InitLookAtMat4F(position,position+direction, up);
 		
-		Vector3f raysad (raytest.origin);
-		Vector3f distance(raytest.direction*100);
-		
-		eng.GetObject3D(4)->SetLocalMatrix(InitTranslationMat4F(Vector3f(0,0,0)));
-		
-		eng.GetObject3D(3)->SetLocalMatrix(InitTranslationMat4F(Vector3f(1,0,2)));
 		eng.Update();
-		//Matrix4F test = *eng.GetObject3D(2)->GetGlobalAddress();
-		//eng.GetCamera("FirstPerson")->SetViewMatrix(InitTranslationMat4F(Vector3f(0, 0, -10)) * test.GetInverse());
 		eng.GetCamera("FirstPerson")->SetViewMatrix(cameraView);
 		eng.Render(window->GetWindow());
 		this->window->SwapBuffers();

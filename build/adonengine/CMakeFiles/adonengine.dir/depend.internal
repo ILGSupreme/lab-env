@@ -6,6 +6,7 @@ adonengine/CMakeFiles/adonengine.dir/AdonEngine.cc.o
  ../adonengine/camera/CameraContainer.h
  ../adonengine/camera/Plane.h
  ../adonengine/camera/Viewport.h
+ ../adonengine/data/DataStructures.h
  ../adonengine/graphics/GraphicsManager.h
  ../adonengine/graphics/Instance.h
  ../adonengine/graphics/Mesh.h
@@ -20,7 +21,15 @@ adonengine/CMakeFiles/adonengine.dir/AdonEngine.cc.o
  ../exts/mathlib/SamMathsVectors.h
  /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/AdonEngine.cc
  /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/AdonEngine.h
+adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o
+ ../adonengine/base/counter.h
+ ../adonengine/data/DataStructures.h
+ ../adonengine/graphics/Renderer.h
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/base/Factory.cc
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/base/Factory.h
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/base/IBase.h
 adonengine/CMakeFiles/adonengine.dir/camera/Camera.cc.o
+ ../adonengine/data/DataStructures.h
  ../adonengine/graphics/Instance.h
  ../adonengine/object/Object3D.h
  ../adonengine/physics/Bounds.h
@@ -39,6 +48,7 @@ adonengine/CMakeFiles/adonengine.dir/camera/CameraContainer.cc.o
  /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/camera/Plane.h
  /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/camera/Viewport.h
 adonengine/CMakeFiles/adonengine.dir/graphics/GraphicsManager.cc.o
+ ../adonengine/data/DataStructures.h
  ../adonengine/physics/Bounds.h
  ../exts/glew/include/GL/glew.h
  ../exts/mathlib/SamMathsMatrices.h
@@ -51,6 +61,7 @@ adonengine/CMakeFiles/adonengine.dir/graphics/GraphicsManager.cc.o
  /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/graphics/ShaderProgram.h
  /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/graphics/SourceData.h
 adonengine/CMakeFiles/adonengine.dir/graphics/Instance.cc.o
+ ../adonengine/data/DataStructures.h
  ../adonengine/physics/Bounds.h
  ../exts/mathlib/SamMathsMatrices.h
  ../exts/mathlib/SamMathsVectors.h
@@ -61,6 +72,12 @@ adonengine/CMakeFiles/adonengine.dir/graphics/Mesh.cc.o
  /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/graphics/Mesh.cc
  /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/graphics/Mesh.h
  /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/graphics/SourceData.h
+adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o
+ ../adonengine/base/IBase.h
+ ../adonengine/base/counter.h
+ ../adonengine/data/DataStructures.h
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/graphics/Renderer.cc
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/graphics/Renderer.h
 adonengine/CMakeFiles/adonengine.dir/graphics/Shader.cc.o
  ../exts/glew/include/GL/glew.h
  /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/graphics/Shader.cc
@@ -82,6 +99,7 @@ adonengine/CMakeFiles/adonengine.dir/object/Object3D.cc.o
  ../adonengine/camera/Camera.h
  ../adonengine/camera/Plane.h
  ../adonengine/camera/Viewport.h
+ ../adonengine/data/DataStructures.h
  ../adonengine/graphics/Instance.h
  ../adonengine/physics/Bounds.h
  ../exts/glew/include/GL/glew.h
@@ -89,5 +107,54 @@ adonengine/CMakeFiles/adonengine.dir/object/Object3D.cc.o
  ../exts/mathlib/SamMathsVectors.h
  /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/object/Object3D.cc
  /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/object/Object3D.h
-adonengine/CMakeFiles/adonengine.dir/physics/Physics.cc.o
- /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/Physics.cc
+adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o
+ ../adonengine/base/IBase.h
+ ../adonengine/base/counter.h
+ ../adonengine/camera/Camera.h
+ ../adonengine/camera/Plane.h
+ ../adonengine/camera/Viewport.h
+ ../adonengine/data/DataStructures.h
+ ../adonengine/graphics/Instance.h
+ ../adonengine/physics/Bounds.h
+ ../exts/mathlib/SamMathsMatrices.h
+ ../exts/mathlib/SamMathsVectors.h
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/object/Object3D.h
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/object/ObjectManager.cc
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/object/ObjectManager.h
+adonengine/CMakeFiles/adonengine.dir/physics/Bounds.cc.o
+ ../exts/mathlib/SamMathsMatrices.h
+ ../exts/mathlib/SamMathsVectors.h
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/Bounds.cc
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/Bounds.h
+adonengine/CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.o
+ ../adonengine/time/interval.h
+ ../exts/mathlib/SamMathsMatrices.h
+ ../exts/mathlib/SamMathsVectors.h
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/Bounds.h
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/IntersectionTest.cc
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/IntersectionTest.h
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/Ray.h
+adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o
+ ../adonengine/base/IBase.h
+ ../adonengine/base/counter.h
+ ../adonengine/data/DataStructures.h
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/PhysicsManager.cc
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/PhysicsManager.h
+adonengine/CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.o
+ ../adonengine/camera/Camera.h
+ ../adonengine/camera/Plane.h
+ ../adonengine/camera/Viewport.h
+ ../adonengine/data/DataStructures.h
+ ../adonengine/graphics/Instance.h
+ ../adonengine/object/Object3D.h
+ ../adonengine/time/interval.h
+ ../exts/mathlib/SamMathsMatrices.h
+ ../exts/mathlib/SamMathsVectors.h
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/Bounds.h
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/IntersectionTest.h
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/PhysicsUtil.cc
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/PhysicsUtil.h
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/physics/Ray.h
+adonengine/CMakeFiles/adonengine.dir/time/interval.cc.o
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/time/interval.cc
+ /home/sampad-3/Labbar/FysikLabbar/lab-env/adonengine/time/interval.h

@@ -9,11 +9,11 @@
 using namespace Mat4;
 using namespace SMUtility;
 
-class AdonEngine
+class Adon
 {
 public:
 
-	AdonEngine();
+	Adon();
 	/**
 	*	CreateShader
 	*	Creates a Shader object with the shader text data
@@ -142,7 +142,10 @@ public:
 	*	Gets the specified textures ID
 	*/
 	int GetTextureID(string name);
-
+	
+	//DUMMY FUNC
+	map<int,Object3D>* getObjects();
+	
 private:
 	void FrustrumCulling();
 	GraphicsManager graphics;

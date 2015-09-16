@@ -18,7 +18,6 @@ Shader::~Shader()
 
 Shader::Shader()
 {
-
 }
 
 Shader::Shader(string filename, ShaderDef _definition)

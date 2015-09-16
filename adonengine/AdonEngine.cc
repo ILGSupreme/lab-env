@@ -4,108 +4,108 @@
 #include "GL/glew.h"
 #include "GLFW/glfw3.h"
 
-AdonEngine::AdonEngine()
+Adon::Adon()
 {
 	this->Scenegraph.push_back(Object3D());
 	this->Scenegraph[0].SetLocalMatrix(Mat4::InitIdentityMat4F());
 	glEnable(GL_CULL_FACE);
 }
 
-void AdonEngine::CreateShader(string name, string filename, ShaderDef definition)
+void Adon::CreateShader(string name, string filename, ShaderDef definition)
 {
 	this->graphics.AddShader(name, filename, definition);
 }
 
-Shader* AdonEngine::GetShader(string name)
+Shader* Adon::GetShader(string name)
 {
 	return this->graphics.GetShader(name);
 }
 
-int AdonEngine::GetTextureID(string name)
+int Adon::GetTextureID(string name)
 {
 	return this->graphics.GetTextureID(name);
 }
 
-void AdonEngine::CreateShaderProgram(string name)
+void Adon::CreateShaderProgram(string name)
 {
 	this->graphics.AddShaderProgram(name);
 }
 
-void AdonEngine::AttachShaderToProgram(string shader, string shaderprogram)
+void Adon::AttachShaderToProgram(string shader, string shaderprogram)
 {
 	this->graphics.GetShaderProgram(shaderprogram)->AttachShader(*this->GetShader(shader));
 }
 
-void AdonEngine::LinkProgram(string shaderprogram)
+void Adon::LinkProgram(string shaderprogram)
 {
 	this->graphics.GetShaderProgram(shaderprogram)->LinkProgram();
 }
 
-void AdonEngine::AddAttributeToShaderProgram(string name,string Attribute)
+void Adon::AddAttributeToShaderProgram(string name,string Attribute)
 {
 	this->graphics.GetShaderProgram(name)->AddAttribute(Attribute);
 }
 
-void AdonEngine::AddUniformToShaderProgram(string name, string Uniform)
+void Adon::AddUniformToShaderProgram(string name, string Uniform)
 {
 	this->graphics.GetShaderProgram(name)->AddUniform(Uniform);
 }
 
-void AdonEngine::LoadOBJFile(string meshname, const char* path)
+void Adon::LoadOBJFile(string meshname, const char* path)
 {
 	this->graphics.LoadOBJFile(meshname, path);
 }
 
-void AdonEngine::LoadBMPFile(string texturename, const char* filename)
+void Adon::LoadBMPFile(string texturename, const char* filename)
 {
 	this->graphics.LoadBMPFile(filename, texturename);
 }
 
-void AdonEngine::CreateInstance(string meshname, string Shaderprogram, string InstanceName)
+void Adon::CreateInstance(string meshname, string Shaderprogram, string InstanceName)
 {
 	this->graphics.CreateInstance(meshname, Shaderprogram, InstanceName);
 }
 
-void AdonEngine::Create3DObject(int id, string instance,int root_id)
+void Adon::Create3DObject(int id, string instance,int root_id)
 {
 	//MAKE CHECKS
 	this->AllObjects[id]=Object3D(this->graphics.GetInstance(instance), Mat4::InitIdentityMat4F());
 	this->AllObjects[id].ChildOf(this->Scenegraph[root_id]);
 }
 
-void AdonEngine::Create3DObject(int id, string instance, Object3D& object)
+void Adon::Create3DObject(int id, string instance, Object3D& object)
 {
 	this->AllObjects[id] = Object3D(this->graphics.GetInstance(instance), Mat4::InitIdentityMat4F());
 	this->AllObjects[id].ChildOf(object);
 }
 
-void AdonEngine::Create3DObject(int id, string instance)
+void Adon::Create3DObject(int id, string instance)
 {
 	this->AllObjects[id] = Object3D(this->graphics.GetInstance(instance), Mat4::InitIdentityMat4F());
 }
 
-Object3D* AdonEngine::GetObject3D(int id)
+Object3D* Adon::GetObject3D(int id)
 {
 	return &this->AllObjects[id];
 }
 
-void AdonEngine::AddCamera(string name,CameraDefinition def,Viewport viewport)
+void Adon::AddCamera(string name,CameraDefinition def,Viewport viewport)
 {
 	this->camera_container.AddCamera(name,def,viewport);
 }
 
-Camera* AdonEngine::GetCamera(string name)
+Camera* Adon::GetCamera(string name)
 {
 	return this->camera_container.GetCamera(name);
 }
 
-void AdonEngine::ActivateCamera(string name)
+void Adon::ActivateCamera(string name)
 {
 	this->camera_container.ActivateCamera(name);
 }
 
 
-void AdonEngine::Update()
+void Adon::Update()
 {
 	for (int i = 0; i < this->Scenegraph.size(); i++)
 	{
@@ -115,7 +115,12 @@ void AdonEngine::Update()
 
 }
 
-void AdonEngine::Render(GLFWwindow* window)
+map<int,Object3D >* Adon::getObjects()
+{
+  return &this->AllObjects;
+}
+
+void Adon::Render(GLFWwindow* window)
 {
 	double time = glfwGetTime();
 	static const GLfloat red[] = { 0.0f, 0.0f, 0.0f, 1.0f };

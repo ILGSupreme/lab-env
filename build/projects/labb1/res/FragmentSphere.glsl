@@ -13,6 +13,7 @@ uniform vec3 LightPosition_worldspace;
 uniform vec3 ambient_light;
 uniform vec3 diffuse_light;
 uniform vec3 specular_light;
+uniform vec3 target_color;
 
 void main(void)
 {
@@ -55,7 +56,13 @@ void main(void)
 		MaterialDiffuseColor * LightColor * LightPower * diffuse_light * cosTheta /1 +
 		// Specular : reflective highlight, like a mirror
 		MaterialSpecularColor * LightColor * LightPower * pow(cosAlpha,50) /1;
-
-	color = vec4(colortest,1);
-
+	
+	if(target_color.x == 0)
+	{
+	  color = vec4(0.5,0.1,0.1,1);
+	}
+	else
+	{
+	  color = vec4(colortest,1);
+	}
 }

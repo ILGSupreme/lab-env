@@ -2,13 +2,15 @@
 #define _RAY_H_
 #include "SamMathsVectors.h"
 
-namespace AdonPhysics
+namespace AdonEngine
 {
-  struct Ray
+  namespace Physics
   {
+    struct Ray{
       Ray(){
 	
       }
+      
       Ray(Vector3f origin,Vector3f direction,float distance):t(1){
 	this->origin = origin;
 	this->direction = direction;
@@ -18,6 +20,8 @@ namespace AdonPhysics
       Vector3f direction;
       float t;
       float distance;
-  };
+      
+    };
+  }
 }
 #endif //_RAY_H_

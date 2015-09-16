@@ -45,7 +45,7 @@ bool Object3D::hasChildren()
 
 void Object3D::Update(Matrix4F _transform)
 {
-	this->globaltransform = _transform * this->transform;
+	this->globaltransform = _transform * this->transform;	
 	if (this->hasChildren())
 	{
 		for (int i = 0; i < this->children.size(); i++)
@@ -74,16 +74,16 @@ Matrix4F* Object3D::GetGlobalAddress()
 void Object3D::Render(Camera& acc)
 {
 	//Change!
-	if (this->graphicdata.GetProgram()>30000)
+	if (!this->graphicdata.isInitilized())
 	{
 	  
 	}
 	else
 	{
 	  ///CHECKS FOR BOUNDING SPHERE
-	  if(this->graphicdata.GetBounds()->def==BOUNDINGSPHERE){
-	    float radius = this->graphicdata.GetBounds()->radius;
-	    Vector3f center = this->graphicdata.GetBounds()->center;
+	  if(this->graphicdata.GetBounds()->Def()==BOUNDINGSPHERE){
+	    float radius = this->graphicdata.GetBounds()->Radius();
+	    Vector3f center = this->graphicdata.GetBounds()->Center();
 	    
 	    float sx = Vector3f(this->globaltransform[0][0], this->globaltransform[0][1], this->globaltransform[0][2]).lenght();
 	    float sy = Vector3f(this->globaltransform[1][0], this->globaltransform[1][1], this->globaltransform[1][2]).lenght();
@@ -126,7 +126,7 @@ void Object3D::Render(Camera& acc)
 	      }
 	    }
 	  }
-	  else if(this->graphicdata.GetBounds()->def==BOUNDINGBOX){
+	  else if(this->graphicdata.GetBounds()->Def()==BOUNDINGBOX){
 	    if (this->graphicdata.GetRenderInfo().CULL_FACE == DISABLE_CULL_FACE)
 	    {
 	      glDisable(GL_CULL_FACE);
@@ -148,6 +148,7 @@ void Object3D::Render(Camera& acc)
 	    {
 	      glBindTexture(GL_TEXTURE_2D, this->textureid);
 	    }
+
 	    if (this->graphicdata.GetRenderInfo().drawinfo == DRAWELEMENTS)
 	    {
 	      glDrawElements(GL_TRIANGLES, this->graphicdata.GetCount(), GL_UNSIGNED_SHORT, (void*)0);
@@ -182,6 +183,12 @@ int Object3D::GetTextureID()
 {
 	return this->textureid;
 }
+
+void Object3D::Initilize(int ins)
+{
+  this->instance_id = ins;
+}
+
 
 void Object3D::AddMaterial(string name, Vector3f data)
 {

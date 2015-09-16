@@ -563,7 +563,7 @@ struct Matrix4F
 	*	@param vector
 	*	@param matrix
 	*/
-	friend Vector4f operator*(Matrix4D matrix, const Vector4f & vector);
+	friend Vector4f operator*(Matrix4F matrix, const Vector4f & vector);
 
 	/**
 	*	overloaded operator*

@@ -30,10 +30,13 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../exts/glew/include"
   "../exts/glfw-3.1.1/include"
   "../exts/mathlib"
+  "../adonengine/base"
   "../adonengine/graphics"
   "../adonengine/camera"
   "../adonengine/object"
   "../adonengine/physics"
+  "../adonengine/data"
+  "../adonengine/time"
   "../adonengine"
   )
 set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

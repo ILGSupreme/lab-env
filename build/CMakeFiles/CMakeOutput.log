@@ -28,30 +28,30 @@ The CXX compiler identification is GNU, found in "/home/sampad-3/Labbar/FysikLab
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3524115929/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3524115929.dir/build.make CMakeFiles/cmTryCompileExec3524115929.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3942120290/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3942120290.dir/build.make CMakeFiles/cmTryCompileExec3942120290.dir/build
 make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3524115929.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3524115929.dir/testCCompiler.c.o   -c /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec3524115929
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3524115929.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec3524115929.dir/testCCompiler.c.o  -o cmTryCompileExec3524115929 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec3942120290.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3942120290.dir/testCCompiler.c.o   -c /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3942120290
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3942120290.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3942120290.dir/testCCompiler.c.o  -o cmTryCompileExec3942120290 -rdynamic 
 make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2951362820/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2951362820.dir/build.make CMakeFiles/cmTryCompileExec2951362820.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1417818072/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1417818072.dir/build.make CMakeFiles/cmTryCompileExec1417818072.dir/build
 make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2951362820.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2951362820.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec2951362820
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2951362820.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTryCompileExec2951362820.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2951362820 -rdynamic  
+Building C object CMakeFiles/cmTryCompileExec1417818072.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1417818072.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1417818072
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1417818072.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTryCompileExec1417818072.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1417818072 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
@@ -61,8 +61,8 @@ Thread model: posix
 gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2951362820' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2951362820 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec2951362820.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1417818072' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1417818072 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1417818072.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 
 
@@ -70,15 +70,15 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2951362820/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2951362820.dir/build.make CMakeFiles/cmTryCompileExec2951362820.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec1417818072/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1417818072.dir/build.make CMakeFiles/cmTryCompileExec1417818072.dir/build]
   ignore line: [make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp']
   ignore line: [/usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec2951362820.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2951362820.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec2951362820]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2951362820.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTryCompileExec2951362820.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2951362820 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1417818072.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1417818072.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1417818072]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1417818072.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTryCompileExec1417818072.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1417818072 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
@@ -88,8 +88,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2951362820' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2951362820 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec2951362820.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1417818072' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1417818072 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1417818072.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -103,7 +103,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec2951362820] ==> ignore
+    arg [cmTryCompileExec1417818072] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTryCompileExec2951362820.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec1417818072.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -149,15 +149,15 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3197044239/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3197044239.dir/build.make CMakeFiles/cmTryCompileExec3197044239.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec557624229/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec557624229.dir/build.make CMakeFiles/cmTryCompileExec557624229.dir/build
 make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3197044239.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec3197044239.dir/feature_tests.c.o   -c /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec3197044239
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3197044239.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec3197044239.dir/feature_tests.c.o  -o cmTryCompileExec3197044239 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec557624229.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec557624229.dir/feature_tests.c.o   -c /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec557624229
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec557624229.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec557624229.dir/feature_tests.c.o  -o cmTryCompileExec557624229 -rdynamic 
 make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 
 
@@ -170,15 +170,15 @@ make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMak
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1035003265/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1035003265.dir/build.make CMakeFiles/cmTryCompileExec1035003265.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1204686386/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1204686386.dir/build.make CMakeFiles/cmTryCompileExec1204686386.dir/build
 make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1035003265.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec1035003265.dir/feature_tests.c.o   -c /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec1035003265
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1035003265.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec1035003265.dir/feature_tests.c.o  -o cmTryCompileExec1035003265 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec1204686386.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec1204686386.dir/feature_tests.c.o   -c /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec1204686386
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1204686386.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1204686386.dir/feature_tests.c.o  -o cmTryCompileExec1204686386 -rdynamic 
 make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 
 
@@ -191,15 +191,15 @@ make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMak
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1312152335/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1312152335.dir/build.make CMakeFiles/cmTryCompileExec1312152335.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2501341058/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2501341058.dir/build.make CMakeFiles/cmTryCompileExec2501341058.dir/build
 make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1312152335.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec1312152335.dir/feature_tests.c.o   -c /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec1312152335
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1312152335.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec1312152335.dir/feature_tests.c.o  -o cmTryCompileExec1312152335 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec2501341058.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec2501341058.dir/feature_tests.c.o   -c /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec2501341058
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2501341058.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2501341058.dir/feature_tests.c.o  -o cmTryCompileExec2501341058 -rdynamic 
 make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 
 
@@ -210,30 +210,30 @@ make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMak
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec508860103/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec508860103.dir/build.make CMakeFiles/cmTryCompileExec508860103.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4210647146/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4210647146.dir/build.make CMakeFiles/cmTryCompileExec4210647146.dir/build
 make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec508860103.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec508860103.dir/testCXXCompiler.cxx.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec508860103
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec508860103.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec508860103.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec508860103 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec4210647146.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4210647146.dir/testCXXCompiler.cxx.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec4210647146
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4210647146.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec4210647146.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec4210647146 -rdynamic 
 make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1252527780/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1252527780.dir/build.make CMakeFiles/cmTryCompileExec1252527780.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3481343433/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3481343433.dir/build.make CMakeFiles/cmTryCompileExec3481343433.dir/build
 make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1252527780.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1252527780.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec1252527780
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1252527780.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTryCompileExec1252527780.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1252527780 -rdynamic  
+Building CXX object CMakeFiles/cmTryCompileExec3481343433.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3481343433.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3481343433
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3481343433.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTryCompileExec3481343433.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3481343433 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
@@ -243,8 +243,8 @@ Thread model: posix
 gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1252527780' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1252527780 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1252527780.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3481343433' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3481343433 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3481343433.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 
 
@@ -252,15 +252,15 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec1252527780/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1252527780.dir/build.make CMakeFiles/cmTryCompileExec1252527780.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec3481343433/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3481343433.dir/build.make CMakeFiles/cmTryCompileExec3481343433.dir/build]
   ignore line: [make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp']
   ignore line: [/usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1252527780.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1252527780.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec1252527780]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1252527780.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTryCompileExec1252527780.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1252527780 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3481343433.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3481343433.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3481343433]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3481343433.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTryCompileExec3481343433.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3481343433 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
@@ -270,8 +270,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1252527780' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1252527780 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1252527780.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3481343433' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3481343433 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3481343433.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -285,7 +285,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec1252527780] ==> ignore
+    arg [cmTryCompileExec3481343433] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -297,7 +297,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTryCompileExec1252527780.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec3481343433.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -329,15 +329,15 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
 Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec571922747/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec571922747.dir/build.make CMakeFiles/cmTryCompileExec571922747.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2878971832/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2878971832.dir/build.make CMakeFiles/cmTryCompileExec2878971832.dir/build
 make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec571922747.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTryCompileExec571922747.dir/feature_tests.cxx.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec571922747
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec571922747.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec571922747.dir/feature_tests.cxx.o  -o cmTryCompileExec571922747 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec2878971832.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTryCompileExec2878971832.dir/feature_tests.cxx.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec2878971832
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2878971832.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec2878971832.dir/feature_tests.cxx.o  -o cmTryCompileExec2878971832 -rdynamic 
 make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 
 
@@ -403,15 +403,15 @@ make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMak
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec870839673/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec870839673.dir/build.make CMakeFiles/cmTryCompileExec870839673.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3440188191/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3440188191.dir/build.make CMakeFiles/cmTryCompileExec3440188191.dir/build
 make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec870839673.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTryCompileExec870839673.dir/feature_tests.cxx.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec870839673
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec870839673.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec870839673.dir/feature_tests.cxx.o  -o cmTryCompileExec870839673 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec3440188191.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTryCompileExec3440188191.dir/feature_tests.cxx.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec3440188191
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3440188191.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec3440188191.dir/feature_tests.cxx.o  -o cmTryCompileExec3440188191 -rdynamic 
 make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 
 
@@ -477,15 +477,15 @@ make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMak
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2995111892/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2995111892.dir/build.make CMakeFiles/cmTryCompileExec2995111892.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2398393612/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2398393612.dir/build.make CMakeFiles/cmTryCompileExec2398393612.dir/build
 make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2995111892.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTryCompileExec2995111892.dir/feature_tests.cxx.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec2995111892
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2995111892.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec2995111892.dir/feature_tests.cxx.o  -o cmTryCompileExec2995111892 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec2398393612.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTryCompileExec2398393612.dir/feature_tests.cxx.o -c /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec2398393612
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2398393612.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec2398393612.dir/feature_tests.cxx.o  -o cmTryCompileExec2398393612 -rdynamic 
 make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 
 
@@ -549,135 +549,135 @@ make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMak
 Determining if files pthread.h exist passed with the following output:
 Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1724835210/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1724835210.dir/build.make CMakeFiles/cmTryCompileExec1724835210.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1283444038/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1283444038.dir/build.make CMakeFiles/cmTryCompileExec1283444038.dir/build
 make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1724835210.dir/CheckIncludeFiles.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1724835210.dir/CheckIncludeFiles.c.o   -c /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-Linking C executable cmTryCompileExec1724835210
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1724835210.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec1724835210.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1724835210 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec1283444038.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1283444038.dir/CheckIncludeFiles.c.o   -c /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1283444038
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1283444038.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1283444038.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1283444038 -rdynamic 
 make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec848217651/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec848217651.dir/build.make CMakeFiles/cmTryCompileExec848217651.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2128102685/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2128102685.dir/build.make CMakeFiles/cmTryCompileExec2128102685.dir/build
 make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec848217651.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec848217651.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec848217651
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec848217651.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec848217651.dir/CheckFunctionExists.c.o  -o cmTryCompileExec848217651 -rdynamic -lpthread 
+Building C object CMakeFiles/cmTryCompileExec2128102685.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2128102685.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2128102685
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2128102685.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2128102685.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2128102685 -rdynamic -lpthread 
 make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
 Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec398502284/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec398502284.dir/build.make CMakeFiles/cmTryCompileExec398502284.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3636607784/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3636607784.dir/build.make CMakeFiles/cmTryCompileExec3636607784.dir/build
 make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec398502284.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec398502284.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec398502284
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec398502284.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec398502284.dir/CheckFunctionExists.c.o  -o cmTryCompileExec398502284 -rdynamic -lX11 -lXext 
+Building C object CMakeFiles/cmTryCompileExec3636607784.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec3636607784.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3636607784
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3636607784.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec3636607784.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3636607784 -rdynamic -lX11 -lXext 
 make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function gethostbyname exists passed with the following output:
 Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1068570906/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1068570906.dir/build.make CMakeFiles/cmTryCompileExec1068570906.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1335260993/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1335260993.dir/build.make CMakeFiles/cmTryCompileExec1335260993.dir/build
 make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1068570906.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec1068570906.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec1068570906
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1068570906.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec1068570906.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1068570906 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec1335260993.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec1335260993.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1335260993
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1335260993.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec1335260993.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1335260993 -rdynamic 
 make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function connect exists passed with the following output:
 Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec4098629460/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4098629460.dir/build.make CMakeFiles/cmTryCompileExec4098629460.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec767404696/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec767404696.dir/build.make CMakeFiles/cmTryCompileExec767404696.dir/build
 make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec4098629460.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec4098629460.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec4098629460
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4098629460.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec4098629460.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4098629460 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec767404696.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec767404696.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec767404696
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec767404696.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec767404696.dir/CheckFunctionExists.c.o  -o cmTryCompileExec767404696 -rdynamic 
 make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function remove exists passed with the following output:
 Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec705245735/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec705245735.dir/build.make CMakeFiles/cmTryCompileExec705245735.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3910552225/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3910552225.dir/build.make CMakeFiles/cmTryCompileExec3910552225.dir/build
 make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec705245735.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec705245735.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec705245735
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec705245735.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec705245735.dir/CheckFunctionExists.c.o  -o cmTryCompileExec705245735 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec3910552225.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec3910552225.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3910552225
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3910552225.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec3910552225.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3910552225 -rdynamic 
 make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function shmat exists passed with the following output:
 Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2362781697/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2362781697.dir/build.make CMakeFiles/cmTryCompileExec2362781697.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1981310267/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1981310267.dir/build.make CMakeFiles/cmTryCompileExec1981310267.dir/build
 make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2362781697.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec2362781697.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2362781697
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2362781697.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec2362781697.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2362781697 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec1981310267.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec1981310267.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1981310267
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1981310267.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec1981310267.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1981310267 -rdynamic 
 make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function glXGetProcAddress exists passed with the following output:
 Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1778278430/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1778278430.dir/build.make CMakeFiles/cmTryCompileExec1778278430.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2977310412/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2977310412.dir/build.make CMakeFiles/cmTryCompileExec2977310412.dir/build
 make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1778278430.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddress   -o CMakeFiles/cmTryCompileExec1778278430.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec1778278430
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1778278430.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddress    CMakeFiles/cmTryCompileExec1778278430.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1778278430 -rdynamic -lGL 
+Building C object CMakeFiles/cmTryCompileExec2977310412.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddress   -o CMakeFiles/cmTryCompileExec2977310412.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2977310412
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2977310412.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddress    CMakeFiles/cmTryCompileExec2977310412.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2977310412 -rdynamic -lGL 
 make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function glXGetProcAddressARB exists passed with the following output:
 Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2625085111/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2625085111.dir/build.make CMakeFiles/cmTryCompileExec2625085111.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec532645610/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec532645610.dir/build.make CMakeFiles/cmTryCompileExec532645610.dir/build
 make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2625085111.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB   -o CMakeFiles/cmTryCompileExec2625085111.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2625085111
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2625085111.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB    CMakeFiles/cmTryCompileExec2625085111.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2625085111 -rdynamic -lGL 
+Building C object CMakeFiles/cmTryCompileExec532645610.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB   -o CMakeFiles/cmTryCompileExec532645610.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec532645610
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec532645610.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB    CMakeFiles/cmTryCompileExec532645610.dir/CheckFunctionExists.c.o  -o cmTryCompileExec532645610 -rdynamic -lGL 
 make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 
 
