@@ -139,6 +139,54 @@ AdonEngine.cc.s:
 	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/AdonEngine.cc.s
 .PHONY : AdonEngine.cc.s
 
+base/Array.o: base/Array.cc.o
+.PHONY : base/Array.o
+
+# target to build an object file
+base/Array.cc.o:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/base/Array.cc.o
+.PHONY : base/Array.cc.o
+
+base/Array.i: base/Array.cc.i
+.PHONY : base/Array.i
+
+# target to preprocess a source file
+base/Array.cc.i:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/base/Array.cc.i
+.PHONY : base/Array.cc.i
+
+base/Array.s: base/Array.cc.s
+.PHONY : base/Array.s
+
+# target to generate assembly for a file
+base/Array.cc.s:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/base/Array.cc.s
+.PHONY : base/Array.cc.s
+
+base/ContainerManager.o: base/ContainerManager.cc.o
+.PHONY : base/ContainerManager.o
+
+# target to build an object file
+base/ContainerManager.cc.o:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/base/ContainerManager.cc.o
+.PHONY : base/ContainerManager.cc.o
+
+base/ContainerManager.i: base/ContainerManager.cc.i
+.PHONY : base/ContainerManager.i
+
+# target to preprocess a source file
+base/ContainerManager.cc.i:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/base/ContainerManager.cc.i
+.PHONY : base/ContainerManager.cc.i
+
+base/ContainerManager.s: base/ContainerManager.cc.s
+.PHONY : base/ContainerManager.s
+
+# target to generate assembly for a file
+base/ContainerManager.cc.s:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/base/ContainerManager.cc.s
+.PHONY : base/ContainerManager.cc.s
+
 base/Factory.o: base/Factory.cc.o
 .PHONY : base/Factory.o
 
@@ -210,6 +258,30 @@ camera/CameraContainer.s: camera/CameraContainer.cc.s
 camera/CameraContainer.cc.s:
 	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/camera/CameraContainer.cc.s
 .PHONY : camera/CameraContainer.cc.s
+
+camera/CameraManager.o: camera/CameraManager.cc.o
+.PHONY : camera/CameraManager.o
+
+# target to build an object file
+camera/CameraManager.cc.o:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/camera/CameraManager.cc.o
+.PHONY : camera/CameraManager.cc.o
+
+camera/CameraManager.i: camera/CameraManager.cc.i
+.PHONY : camera/CameraManager.i
+
+# target to preprocess a source file
+camera/CameraManager.cc.i:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/camera/CameraManager.cc.i
+.PHONY : camera/CameraManager.cc.i
+
+camera/CameraManager.s: camera/CameraManager.cc.s
+.PHONY : camera/CameraManager.s
+
+# target to generate assembly for a file
+camera/CameraManager.cc.s:
+	cd /home/sampad-3/Labbar/FysikLabbar/lab-env/build && $(MAKE) -f adonengine/CMakeFiles/adonengine.dir/build.make adonengine/CMakeFiles/adonengine.dir/camera/CameraManager.cc.s
+.PHONY : camera/CameraManager.cc.s
 
 graphics/GraphicsManager.o: graphics/GraphicsManager.cc.o
 .PHONY : graphics/GraphicsManager.o
@@ -583,6 +655,12 @@ help:
 	@echo "... AdonEngine.o"
 	@echo "... AdonEngine.i"
 	@echo "... AdonEngine.s"
+	@echo "... base/Array.o"
+	@echo "... base/Array.i"
+	@echo "... base/Array.s"
+	@echo "... base/ContainerManager.o"
+	@echo "... base/ContainerManager.i"
+	@echo "... base/ContainerManager.s"
 	@echo "... base/Factory.o"
 	@echo "... base/Factory.i"
 	@echo "... base/Factory.s"
@@ -592,6 +670,9 @@ help:
 	@echo "... camera/CameraContainer.o"
 	@echo "... camera/CameraContainer.i"
 	@echo "... camera/CameraContainer.s"
+	@echo "... camera/CameraManager.o"
+	@echo "... camera/CameraManager.i"
+	@echo "... camera/CameraManager.s"
 	@echo "... graphics/GraphicsManager.o"
 	@echo "... graphics/GraphicsManager.i"
 	@echo "... graphics/GraphicsManager.s"

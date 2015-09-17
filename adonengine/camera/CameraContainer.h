@@ -27,22 +27,13 @@ public:
 	*	@param name
 	*/
 	Camera* GetCamera(std::string name);
-	/*
-	*	GetActiveCamera
-	*	@param viewport
-	*/
-// 	Camera* GetActiveCamera(string viewport);
 	/**
 	*	ActiveCamera
 	*	@param name
 	*/
 	void ActivateCamera(std::string name);
-// 	/**
-// 	*	ActiveCamContainer
-// 	*/
-// 	ActiveCamContainer GetActiveContainer();
 	/**
-	 * 
+	 * 	Get Cameras
 	 * */
 	std::map<std::string,Camera>& GetCameras();
 private:

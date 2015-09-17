@@ -21,9 +21,36 @@ adonengine/CMakeFiles/adonengine.dir/AdonEngine.cc.o: ../exts/mathlib/SamMathsVe
 adonengine/CMakeFiles/adonengine.dir/AdonEngine.cc.o: ../adonengine/AdonEngine.cc
 adonengine/CMakeFiles/adonengine.dir/AdonEngine.cc.o: ../adonengine/AdonEngine.h
 
+adonengine/CMakeFiles/adonengine.dir/base/Array.cc.o: ../adonengine/base/Array.cc
+
+adonengine/CMakeFiles/adonengine.dir/base/ContainerManager.cc.o: ../adonengine/camera/Camera.h
+adonengine/CMakeFiles/adonengine.dir/base/ContainerManager.cc.o: ../adonengine/camera/CameraContainer.h
+adonengine/CMakeFiles/adonengine.dir/base/ContainerManager.cc.o: ../adonengine/camera/Plane.h
+adonengine/CMakeFiles/adonengine.dir/base/ContainerManager.cc.o: ../adonengine/camera/Viewport.h
+adonengine/CMakeFiles/adonengine.dir/base/ContainerManager.cc.o: ../adonengine/data/DataStructures.h
+adonengine/CMakeFiles/adonengine.dir/base/ContainerManager.cc.o: ../adonengine/graphics/Instance.h
+adonengine/CMakeFiles/adonengine.dir/base/ContainerManager.cc.o: ../adonengine/object/Object3D.h
+adonengine/CMakeFiles/adonengine.dir/base/ContainerManager.cc.o: ../adonengine/physics/Bounds.h
+adonengine/CMakeFiles/adonengine.dir/base/ContainerManager.cc.o: ../exts/mathlib/SamMathsMatrices.h
+adonengine/CMakeFiles/adonengine.dir/base/ContainerManager.cc.o: ../exts/mathlib/SamMathsVectors.h
+adonengine/CMakeFiles/adonengine.dir/base/ContainerManager.cc.o: ../adonengine/base/Array.h
+adonengine/CMakeFiles/adonengine.dir/base/ContainerManager.cc.o: ../adonengine/base/ContainerManager.cc
+adonengine/CMakeFiles/adonengine.dir/base/ContainerManager.cc.o: ../adonengine/base/ContainerManager.h
+adonengine/CMakeFiles/adonengine.dir/base/ContainerManager.cc.o: ../adonengine/base/IBase.h
+adonengine/CMakeFiles/adonengine.dir/base/ContainerManager.cc.o: ../adonengine/base/counter.h
+
 adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o: ../adonengine/base/counter.h
+adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o: ../adonengine/camera/Camera.h
+adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o: ../adonengine/camera/CameraContainer.h
+adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o: ../adonengine/camera/Plane.h
+adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o: ../adonengine/camera/Viewport.h
 adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o: ../adonengine/data/DataStructures.h
+adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o: ../adonengine/graphics/Instance.h
 adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o: ../adonengine/graphics/Renderer.h
+adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o: ../adonengine/object/Object3D.h
+adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o: ../adonengine/physics/Bounds.h
+adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o: ../exts/mathlib/SamMathsMatrices.h
+adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o: ../exts/mathlib/SamMathsVectors.h
 adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o: ../adonengine/base/Factory.cc
 adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o: ../adonengine/base/Factory.h
 adonengine/CMakeFiles/adonengine.dir/base/Factory.cc.o: ../adonengine/base/IBase.h
@@ -46,6 +73,23 @@ adonengine/CMakeFiles/adonengine.dir/camera/CameraContainer.cc.o: ../adonengine/
 adonengine/CMakeFiles/adonengine.dir/camera/CameraContainer.cc.o: ../adonengine/camera/CameraContainer.h
 adonengine/CMakeFiles/adonengine.dir/camera/CameraContainer.cc.o: ../adonengine/camera/Plane.h
 adonengine/CMakeFiles/adonengine.dir/camera/CameraContainer.cc.o: ../adonengine/camera/Viewport.h
+
+adonengine/CMakeFiles/adonengine.dir/camera/CameraManager.cc.o: ../adonengine/base/Array.h
+adonengine/CMakeFiles/adonengine.dir/camera/CameraManager.cc.o: ../adonengine/base/ContainerManager.h
+adonengine/CMakeFiles/adonengine.dir/camera/CameraManager.cc.o: ../adonengine/base/IBase.h
+adonengine/CMakeFiles/adonengine.dir/camera/CameraManager.cc.o: ../adonengine/base/counter.h
+adonengine/CMakeFiles/adonengine.dir/camera/CameraManager.cc.o: ../adonengine/data/DataStructures.h
+adonengine/CMakeFiles/adonengine.dir/camera/CameraManager.cc.o: ../adonengine/graphics/Instance.h
+adonengine/CMakeFiles/adonengine.dir/camera/CameraManager.cc.o: ../adonengine/object/Object3D.h
+adonengine/CMakeFiles/adonengine.dir/camera/CameraManager.cc.o: ../adonengine/physics/Bounds.h
+adonengine/CMakeFiles/adonengine.dir/camera/CameraManager.cc.o: ../exts/mathlib/SamMathsMatrices.h
+adonengine/CMakeFiles/adonengine.dir/camera/CameraManager.cc.o: ../exts/mathlib/SamMathsVectors.h
+adonengine/CMakeFiles/adonengine.dir/camera/CameraManager.cc.o: ../adonengine/camera/Camera.h
+adonengine/CMakeFiles/adonengine.dir/camera/CameraManager.cc.o: ../adonengine/camera/CameraContainer.h
+adonengine/CMakeFiles/adonengine.dir/camera/CameraManager.cc.o: ../adonengine/camera/CameraManager.cc
+adonengine/CMakeFiles/adonengine.dir/camera/CameraManager.cc.o: ../adonengine/camera/CameraManager.h
+adonengine/CMakeFiles/adonengine.dir/camera/CameraManager.cc.o: ../adonengine/camera/Plane.h
+adonengine/CMakeFiles/adonengine.dir/camera/CameraManager.cc.o: ../adonengine/camera/Viewport.h
 
 adonengine/CMakeFiles/adonengine.dir/graphics/GraphicsManager.cc.o: ../adonengine/data/DataStructures.h
 adonengine/CMakeFiles/adonengine.dir/graphics/GraphicsManager.cc.o: ../adonengine/physics/Bounds.h
@@ -72,9 +116,22 @@ adonengine/CMakeFiles/adonengine.dir/graphics/Mesh.cc.o: ../adonengine/graphics/
 adonengine/CMakeFiles/adonengine.dir/graphics/Mesh.cc.o: ../adonengine/graphics/Mesh.h
 adonengine/CMakeFiles/adonengine.dir/graphics/Mesh.cc.o: ../adonengine/graphics/SourceData.h
 
+adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o: ../adonengine/base/Array.h
+adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o: ../adonengine/base/ContainerManager.h
 adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o: ../adonengine/base/IBase.h
 adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o: ../adonengine/base/counter.h
+adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o: ../adonengine/camera/Camera.h
+adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o: ../adonengine/camera/CameraContainer.h
+adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o: ../adonengine/camera/Plane.h
+adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o: ../adonengine/camera/Viewport.h
 adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o: ../adonengine/data/DataStructures.h
+adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o: ../adonengine/graphics/Instance.h
+adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o: ../adonengine/object/Object3D.h
+adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o: ../adonengine/object/ObjectManager.h
+adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o: ../adonengine/physics/Bounds.h
+adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o: ../exts/glew/include/GL/glew.h
+adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o: ../exts/mathlib/SamMathsMatrices.h
+adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o: ../exts/mathlib/SamMathsVectors.h
 adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o: ../adonengine/graphics/Renderer.cc
 adonengine/CMakeFiles/adonengine.dir/graphics/Renderer.cc.o: ../adonengine/graphics/Renderer.h
 
@@ -107,9 +164,12 @@ adonengine/CMakeFiles/adonengine.dir/object/Object3D.cc.o: ../exts/mathlib/SamMa
 adonengine/CMakeFiles/adonengine.dir/object/Object3D.cc.o: ../adonengine/object/Object3D.cc
 adonengine/CMakeFiles/adonengine.dir/object/Object3D.cc.o: ../adonengine/object/Object3D.h
 
+adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o: ../adonengine/base/Array.h
+adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o: ../adonengine/base/ContainerManager.h
 adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o: ../adonengine/base/IBase.h
 adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o: ../adonengine/base/counter.h
 adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o: ../adonengine/camera/Camera.h
+adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o: ../adonengine/camera/CameraContainer.h
 adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o: ../adonengine/camera/Plane.h
 adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o: ../adonengine/camera/Viewport.h
 adonengine/CMakeFiles/adonengine.dir/object/ObjectManager.cc.o: ../adonengine/data/DataStructures.h
@@ -136,9 +196,8 @@ adonengine/CMakeFiles/adonengine.dir/physics/IntersectionTest.cc.o: ../adonengin
 
 adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o: ../adonengine/base/IBase.h
 adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o: ../adonengine/base/counter.h
-adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o: ../adonengine/data/DataStructures.h
-adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o: ../adonengine/physics/PhysicsManager.cc
 adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o: ../adonengine/physics/PhysicsManager.h
+adonengine/CMakeFiles/adonengine.dir/physics/PhysicsManager.cc.o: ../adonengine/physics/PhysicsManager.cc
 
 adonengine/CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.o: ../adonengine/camera/Camera.h
 adonengine/CMakeFiles/adonengine.dir/physics/PhysicsUtil.cc.o: ../adonengine/camera/Plane.h

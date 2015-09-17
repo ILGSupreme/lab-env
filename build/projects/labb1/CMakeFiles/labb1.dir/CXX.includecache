@@ -16,15 +16,45 @@ Object3D.h
 GLFW/glfw3.h
 ../adonengine/GLFW/glfw3.h
 
+../adonengine/base/Array.h
+counter.h
+../adonengine/base/counter.h
+cstddef
+-
+new
+-
+iostream
+-
+vector
+-
+utility
+-
+
+../adonengine/base/ContainerManager.h
+counter.h
+../adonengine/base/counter.h
+IBase.h
+../adonengine/base/IBase.h
+Object3D.h
+../adonengine/base/Object3D.h
+CameraContainer.h
+../adonengine/base/CameraContainer.h
+DataStructures.h
+../adonengine/base/DataStructures.h
+Array.h
+../adonengine/base/Array.h
+
 ../adonengine/base/Factory.h
 map
 -
 IBase.h
 ../adonengine/base/IBase.h
+Object3D.h
+-
+CameraContainer.h
+-
 
 ../adonengine/base/IBase.h
-DataStructures.h
-../adonengine/base/DataStructures.h
 counter.h
 ../adonengine/base/counter.h
 
@@ -45,6 +75,14 @@ Camera.h
 ../adonengine/camera/Camera.h
 map
 -
+
+../adonengine/camera/CameraManager.h
+IBase.h
+-
+DataStructures.h
+../adonengine/camera/DataStructures.h
+CameraContainer.h
+../adonengine/camera/CameraContainer.h
 
 ../adonengine/camera/Plane.h
 math.h
@@ -101,6 +139,8 @@ counter.h
 ../adonengine/graphics/counter.h
 stdexcept
 -
+DataStructures.h
+-
 
 ../adonengine/graphics/Shader.h
 GL/glew.h
@@ -139,6 +179,8 @@ Camera.h
 ../adonengine/object/ObjectManager.h
 IBase.h
 -
+Array.h
+-
 Object3D.h
 ../adonengine/object/Object3D.h
 
@@ -156,6 +198,12 @@ Ray.h
 interval.h
 ../adonengine/physics/interval.h
 tuple
+-
+
+../adonengine/physics/PhysicsManager.h
+IBase.h
+-
+counter.h
 -
 
 ../adonengine/physics/PhysicsUtil.h
@@ -279,6 +327,8 @@ AdonEngine.h
 /home/sampad-3/Labbar/FysikLabbar/lab-env/projects/labb1/code/AdonEngine.h
 Projection.h
 /home/sampad-3/Labbar/FysikLabbar/lab-env/projects/labb1/code/Projection.h
+CameraManager.h
+-
 Ray.h
 /home/sampad-3/Labbar/FysikLabbar/lab-env/projects/labb1/code/Ray.h
 IntersectionTest.h
@@ -287,8 +337,12 @@ Bounds.h
 /home/sampad-3/Labbar/FysikLabbar/lab-env/projects/labb1/code/Bounds.h
 PhysicsUtil.h
 -
+PhysicsManager.h
+/home/sampad-3/Labbar/FysikLabbar/lab-env/projects/labb1/code/PhysicsManager.h
 Factory.h
 /home/sampad-3/Labbar/FysikLabbar/lab-env/projects/labb1/code/Factory.h
+ContainerManager.h
+-
 Renderer.h
 /home/sampad-3/Labbar/FysikLabbar/lab-env/projects/labb1/code/Renderer.h
 ObjectManager.h

@@ -6,11 +6,14 @@
 #include "App.h"
 #include "AdonEngine.h"
 #include "Projection.h"
+#include <CameraManager.h>
 #include "Ray.h"
 #include "IntersectionTest.h"
 #include "Bounds.h"
 #include <PhysicsUtil.h>
+#include "PhysicsManager.h"
 #include "Factory.h"
+#include <ContainerManager.h>
 #include "Renderer.h"
 #include <ObjectManager.h>
 #include <cstring>
@@ -122,6 +125,10 @@ GraphicsApp::Open()
 	
 	if (this->window->Open())
 	{
+		AdonEngine::Physics::PhysicsManager::Instance()->Init();
+		AdonEngine::Base::ContainerManager::Instance()->Init();
+		AdonEngine::Object::ObjectManager::Instance()->Init();
+		AdonEngine::Camera::CameraManager::Instance()->Init();
 		eng = Adon();
 		this->target = nullptr;
 		this->newtarget = nullptr;

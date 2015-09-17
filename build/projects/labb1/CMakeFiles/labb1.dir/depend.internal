@@ -3,11 +3,14 @@
 
 projects/labb1/CMakeFiles/labb1.dir/code/App.cc.o
  ../adonengine/AdonEngine.h
+ ../adonengine/base/Array.h
+ ../adonengine/base/ContainerManager.h
  ../adonengine/base/Factory.h
  ../adonengine/base/IBase.h
  ../adonengine/base/counter.h
  ../adonengine/camera/Camera.h
  ../adonengine/camera/CameraContainer.h
+ ../adonengine/camera/CameraManager.h
  ../adonengine/camera/Plane.h
  ../adonengine/camera/Projection.h
  ../adonengine/camera/Viewport.h
@@ -23,6 +26,7 @@ projects/labb1/CMakeFiles/labb1.dir/code/App.cc.o
  ../adonengine/object/ObjectManager.h
  ../adonengine/physics/Bounds.h
  ../adonengine/physics/IntersectionTest.h
+ ../adonengine/physics/PhysicsManager.h
  ../adonengine/physics/PhysicsUtil.h
  ../adonengine/physics/Ray.h
  ../adonengine/time/interval.h

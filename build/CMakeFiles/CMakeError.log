@@ -1,21 +1,21 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2962772078/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2962772078.dir/build.make CMakeFiles/cmTryCompileExec2962772078.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2781742938/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2781742938.dir/build.make CMakeFiles/cmTryCompileExec2781742938.dir/build
 make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2962772078.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2962772078.dir/CheckSymbolExists.c.o   -c /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec2962772078
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2962772078.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec2962772078.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2962772078 -rdynamic 
-CMakeFiles/cmTryCompileExec2962772078.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec2781742938.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2781742938.dir/CheckSymbolExists.c.o   -c /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2781742938
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2781742938.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2781742938.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2781742938 -rdynamic 
+CMakeFiles/cmTryCompileExec2781742938.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
 make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec2962772078] Error 1
-make: *** [cmTryCompileExec2962772078/fast] Error 2
+make[1]: *** [cmTryCompileExec2781742938] Error 1
+make: *** [cmTryCompileExec2781742938/fast] Error 2
 
 File /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -35,39 +35,39 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec4084358791/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4084358791.dir/build.make CMakeFiles/cmTryCompileExec4084358791.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2315460088/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2315460088.dir/build.make CMakeFiles/cmTryCompileExec2315460088.dir/build
 make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec4084358791.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec4084358791.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec4084358791
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4084358791.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec4084358791.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4084358791 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec2315460088.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2315460088.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2315460088
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2315460088.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2315460088.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2315460088 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec4084358791] Error 1
+make[1]: *** [cmTryCompileExec2315460088] Error 1
 make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec4084358791/fast] Error 2
+make: *** [cmTryCompileExec2315460088/fast] Error 2
 
 
 Determining if the function glXGetProcAddressEXT exists failed with the following output:
 Change Dir: /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec4122951263/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4122951263.dir/build.make CMakeFiles/cmTryCompileExec4122951263.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec236293567/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec236293567.dir/build.make CMakeFiles/cmTryCompileExec236293567.dir/build
 make[1]: Entering directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec4122951263.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT   -o CMakeFiles/cmTryCompileExec4122951263.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec4122951263
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4122951263.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT    CMakeFiles/cmTryCompileExec4122951263.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4122951263 -rdynamic -lGL 
-CMakeFiles/cmTryCompileExec4122951263.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec236293567.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT   -o CMakeFiles/cmTryCompileExec236293567.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec236293567
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec236293567.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT    CMakeFiles/cmTryCompileExec236293567.dir/CheckFunctionExists.c.o  -o cmTryCompileExec236293567 -rdynamic -lGL 
+CMakeFiles/cmTryCompileExec236293567.dir/CheckFunctionExists.c.o: In function `main':
 CheckFunctionExists.c:(.text+0x15): undefined reference to `glXGetProcAddressEXT'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec4122951263] Error 1
+make[1]: *** [cmTryCompileExec236293567] Error 1
 make[1]: Leaving directory `/home/sampad-3/Labbar/FysikLabbar/lab-env/build/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec4122951263/fast] Error 2
+make: *** [cmTryCompileExec236293567/fast] Error 2
 
 
